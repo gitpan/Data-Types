@@ -1,5 +1,8 @@
 Revision history for Perl extension Data::Types.
 
+0.05    Tue Aug 26 01:21:03 2003
+        - Switched to Module::Build.
+
 0.04    Thu Jul 25 05:09:13 2002
         - Added reference to Arthur Bergman's new "types" pragma for Perl
           5.8.0. Thought I'd done it in 0.03, but I guess not.
