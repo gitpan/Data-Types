@@ -4,7 +4,7 @@ use strict;
 require Exporter;
 use vars qw($VERSION @ISA @EXPORT @EXPORT_OK %EXPORT_TAGS);
 
-$VERSION = '0.03';
+$VERSION = '0.04';
 
 @ISA = qw(Exporter);
 
@@ -382,6 +382,10 @@ perl, and also does data type validation and conversion.
 
 L<Regexp::Common|Regexp::Common> contains many useful common regular expressions
 (surprise!), including some that can be used to identify data types.
+
+Arthur Bergman's L<types|types> pragma, offers compile-time data types for
+Perl 5.8.0. The data types include int, float, and string. I highly recommend
+using this prgrma for fast, static data types.
 
 =head1 COPYRIGHT AND LICENSE
 
