@@ -4,11 +4,11 @@ my $build = Module::Build->new(
     module_name        => 'Data::Types',
     license            => 'perl',
     create_makefile_pl => 'passthrough',
-    configure_requires => {
-        'Module::Build' => '0.2701',
-    },
+    configure_requires => { 'Module::Build' => '0.2701' },
+    recommends         => { 'Test::Pod'     => '1.20'   },
     build_requires     => {
-        'Test::Simple'  => '0.17'
+        'Module::Build' => '0.2701',
+        'Test::More'    => '0.17',
     },
 );
 $build->create_build_script;
