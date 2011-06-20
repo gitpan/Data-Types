@@ -4,7 +4,7 @@ use strict;
 require Exporter;
 use vars qw($VERSION @ISA @EXPORT @EXPORT_OK %EXPORT_TAGS);
 
-$VERSION = '0.08';
+$VERSION = '0.09';
 
 @ISA = qw(Exporter);
 
@@ -408,16 +408,20 @@ undef.
 
 =head1 SUPPORT
 
-This module is stored in an open repository at the following address:
+This module is stored in an open L<GitHub
+repository|http://github.com/theory/data-types/>. Feel free to fork and
+contribute!
 
-L<https://svn.kineticode.com/Data-Types/trunk/>
+Please file bug reports via L<GitHub
+Issues|http://github.com/theory/data-types/issues/> or by sending mail to
+L<bug-Data-Types.cpan.org|mailto:bug-Data-Types.cpan.org>.
 
-Patches against Data::Types are welcome. Please send bug reports to
+Patches against Class::Meta are welcome. Please send bug reports to
 <bug-data-types@rt.cpan.org>.
 
 =head1 AUTHOR
 
-David Wheeler <david@kineticode.com>
+David E. Wheeler <david@justatheory.com>
 
 =head1 SEE ALSO
 
@@ -439,7 +443,7 @@ using this prgrma for fast, static data types.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2002-2008, David Wheeler. Some Rights Reserved.
+Copyright (c) 2002-2011, David E. Wheeler. Some Rights Reserved.
 
 This module is free software; you can redistribute it and/or modify it under the
 same terms as Perl itself.
